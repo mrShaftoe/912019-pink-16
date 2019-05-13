@@ -5,8 +5,123 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <a class="main-nav-logo">
+          <picture>
+            <img src="http://placehold.it/75х22" alt="Логотип Pink" width="75" height="22">
+          </picture>
+        </a>
+        <button class="main-nav__toggle">Закрыть меню</button>
+        <ul class="man-nav__menu menu">
+          <li class="menu__item">
+            <a href="index.html" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="photos.html" class="menu__link">Фотографии</a>
+          </li>
+          <li class="menu__item">
+            <a href="konkurs.html" class="menu__link">Конкурс</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://up.htmlacademy.ru/adaptive/16" class="menu__link">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <section class="download">
+        <h2 class="visually-hidden">Скачать приложение</h2>
+        <p class="download__slogan">Взгляните на жизнь иначе!</p>
+        <a href="https://appstore.com" class="download__button">Скачать приложение</a>
+        <ul class="download__markets">
+          <li>
+            <a href="https://appstore.com" class="download__market">App Store</a>
+          </li>
+          <li>
+            <a href="https://play.google.com" class="download__market">Google Play</a>
+          </li>
+          <li>
+            <a href="https://microsoft.com/store" class="download__market">Windows store</a>
+          </li>
+        </ul>
+      </section>
+    </header>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Мобильное приложение Pink</h1>
+
+      <section class="about">
+        <h2 class="visually-hidden">О приложении</h2>
+        <header class="about__header">
+          <p class="about__lead">Устали от серости мегаполиса?</p>
+          <p class="about__lead">Нам есть, что вам<br>предложить!</p>
+        </header>
+
+        <ul class="about__features">
+          <li class="about__feature feature">
+            <p class="about__title feature__title">Поднимает настроение</p>
+            <p class="about__text feature__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li class="about__feature feature">
+            <p class="about__title feature__title">Меняет мир вокруг</p>
+            <p class="feature__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
+                усилить эффект</p>
+          </li>
+          <li class="about__feature feature">
+            <p class="about__title feature__title">Заводит новых друзей</p>
+            <p class="feature__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+
+        <div class="about__research">
+          <p class="about__title">Эффект на 24 часа!</p>
+          <p class="about__text">
+              Британские ученые провели исследования
+              и доказали, что положительный эффект
+              от использования приложения длится
+              целые сутки!</p>
+          <a href="research.html" class="about__link">Узнать больше об исследовании</a>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <ul class="reviews__list">
+          <li class="review reviews__item">
+            <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            <div class="review__author">
+              <p class="review__author-name">Николай Петров</p>
+              <p class="review__author-info">25 лет, водитель трамвая</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="reviews__pagination">
+          <li>
+            <button class="reviews__button reviews__button--active">
+              <span class="visually-hidden">1</span>
+            </button>
+          </li>
+          <li>
+            <button class="reviews__button">
+              <span class="visually-hidden">2</span>
+            </button>
+          </li>
+          <li>
+            <button class="reviews__button">
+              <span class="visually-hidden">3</span>
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <section class="tariffs">
+
+      </section>
+    </main>
+
+    <footer class="page-footer">
+
+    </footer>
+
 
   </body>
 </html>
