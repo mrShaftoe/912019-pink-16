@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: $font;
+  font-size: $default-font-size;
+  line-height: $default-line-height;
+  color: $default-color;
+
+  min-width: $mobile-width;
+  margin: 0;
+}
+
+.main-nav .container {
+  padding-top: 22px;
+  padding-bottom: 25px;
+}

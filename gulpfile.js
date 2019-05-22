@@ -12,7 +12,9 @@ gulp.task("css", function () {
   return gulp.src("source/sass/style.scss")
     .pipe(plumber())
     .pipe(sourcemap.init())
-    .pipe(sass())
+    .pipe(sass({
+      includePaths: require("node-normalize-scss").includePaths
+    }))
     .pipe(postcss([
       autoprefixer()
     ]))
@@ -31,6 +33,7 @@ gulp.task("server", function () {
   });
 
   gulp.watch("source/*.html").on("change", server.reload);
+  gulp.watch("source/sass/**/*.{scss,sass}", gulp.series("css"));
 });
 
 gulp.task("start", gulp.series("server"));

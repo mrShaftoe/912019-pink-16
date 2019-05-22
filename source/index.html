@@ -4,19 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
   </head>
   <body>
     <header class="page-header">
-      <nav class="main-nav">
-        <a class="main-nav-logo">
-          <picture>
-            <img src="http://placehold.it/75x22" alt="Логотип Pink" width="75" height="22">
-          </picture>
-        </a>
-        <button class="main-nav__toggle">Закрыть меню</button>
-        <ul class="man-nav__menu menu">
+      <nav class="main-nav main-nav--opened main-nav--nojs">
+        <div class="container">
+          <a class="main-nav__logo">
+            <picture>
+              <img src="http://placehold.it/75x22" alt="Логотип Pink" width="75" height="22">
+            </picture>
+          </a>
+          <button class="main-nav__toggle"><span class="visually-hidden">Закрыть меню</span></button>
+        </div>
+        <ul class="main-nav__menu menu">
           <li class="menu__item">
-            <a href="index.html" class="menu__link">Главная</a>
+            <a class="menu__link">Главная</a>
           </li>
           <li class="menu__item">
             <a href="photos.html" class="menu__link">Фотографии</a>
@@ -29,6 +32,10 @@
           </li>
         </ul>
       </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Мобильное приложение Pink</h1>
 
       <section class="download">
         <h2 class="visually-hidden">Скачать приложение</h2>
@@ -46,10 +53,6 @@
           </li>
         </ul>
       </section>
-    </header>
-
-    <main class="page-main">
-      <h1 class="visually-hidden">Мобильное приложение Pink</h1>
 
       <section class="about">
         <header class="about__header">
@@ -191,7 +194,7 @@
 
       <section class="contacts">
         <header class="contacts__header">
-          <h2 class="visually_hidden">Контакты</h2>
+          <h2 class="visually-hidden">Контакты</h2>
           <p class="contacts__lead section-lead">Остались вопросы?</p>
           <p class="contacts__lead section-lead">Свяжитесь с нами!</p>
         </header>
@@ -240,6 +243,6 @@
       </section>
     </footer>
 
-
+    <script src="js/scripts.js"></script>
   </body>
 </html>
