@@ -1,3 +1,49 @@
 .download {
-  padding-top: 395px;
+  padding-top: 462px;
+  background-image:
+    url("../img/iphone-hand-mobile@1x.png"),
+    url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top 176px left, top center;
+  background-size: auto, 100%;
+  margin-top: -71px;
+  color: #ffffff;
+}
+
+.download__container {
+  background-color: #1d2631;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.download__lead {
+  display: none;
+}
+
+.download__button {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  padding: 18px;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.download__markets {
+  @include list-reset;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 25px;
+  margin-bottom: 25px;
+}
+
+.download__note {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
 }

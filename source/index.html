@@ -38,22 +38,37 @@
       <h1 class="visually-hidden">Мобильное приложение Pink</h1>
 
       <section class="download">
-        <h2 class="visually-hidden">Скачать приложение</h2>
-        <p class="download__slogan">Взгляните на жизнь иначе!</p>
-        <a href="https://appstore.com" class="download__button">Скачать приложение</a>
-        <ul class="download__markets">
-          <li>
-            <a href="https://appstore.com" class="download__market">App Store</a>
-          </li>
-          <li>
-            <a href="https://play.google.com" class="download__market">Google Play</a>
-          </li>
-          <li>
-            <a href="https://microsoft.com/store" class="download__market">Windows store</a>
-          </li>
-        </ul>
+        <div class="download__container container">
+          <header class="download__header">
+            <h2 class="visually-hidden">Скачать приложение</h2>
+            <p class="download__lead section-lead">Взгляните на жизнь иначе!</p>
+          </header>
+          <a href="https://appstore.com" class="download__button">Скачать приложение</a>
+          <ul class="download__markets">
+            <li>
+              <a href="https://appstore.com" class="download__market">
+                <span class="visually-hidden">App Store</span>
+                <img src="http://placehold.it/47x56" alt="" class="download__logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://play.google.com" class="download__market">
+                <span class="visually-hidden">Google Play</span>
+                <img src="http://placehold.it/47x56" alt="" class="download__logo">
+              </a>
+            </li>
+            <li>
+              <a href="https://microsoft.com/store" class="download__market">
+                <span class="visually-hidden">Windows store</span>
+                <img src="http://placehold.it/47x56" alt="" class="download__logo">
+              </a>
+            </li>
+          </ul>
+          <p class="download__note">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+
+        </div>
       </section>
-<!--
+
       <section class="about">
         <header class="about__header">
           <h2 class="visually-hidden">О приложении</h2>
@@ -63,31 +78,32 @@
 
         <ul class="about__features">
           <li class="about__feature feature">
-            <p class="about__title feature__title">Поднимает настроение</p>
-            <p class="about__text feature__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            <p class="feature__title">Поднимает настроение</p>
+            <p class="feature__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
           <li class="about__feature feature">
-            <p class="about__title feature__title">Меняет мир вокруг</p>
+            <p class="feature__title">Меняет мир вокруг</p>
             <p class="feature__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы
                 усилить эффект</p>
           </li>
           <li class="about__feature feature">
-            <p class="about__title feature__title">Заводит новых друзей</p>
+            <p class="feature__title">Заводит новых друзей</p>
             <p class="feature__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
 
-        <div class="about__research">
-          <p class="about__title">Эффект на 24 часа!</p>
-          <p class="about__text">
+
+      </section>
+<!--
+  <div class="about__research">
+          <p class="">Эффект на 24 часа!</p>
+          <p class="">
               Британские ученые провели исследования
               и доказали, что положительный эффект
               от использования приложения длится
               целые сутки!</p>
           <a href="research.html" class="about__link">Узнать больше об исследовании</a>
         </div>
-      </section>
-
       <section class="reviews">
         <header class="reviews__header">
           <h2 class="visually-hidden">Отзывы пользователей</h2>
