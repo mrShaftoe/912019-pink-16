@@ -1,0 +1,24 @@
+.pagination {
+  @include list-reset;
+  display: flex;
+  justify-content: center;
+  margin-right: -19px;
+}
+
+.pagination__button {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba($default-color, 0.3);
+  margin-right: 19px;
+  cursor: pointer;
+  outline: none;
+
+  &--active {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px $default-color;
+    cursor: default;
+  }
+}

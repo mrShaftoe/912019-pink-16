@@ -1,0 +1,26 @@
+.review {
+  line-height: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.review__text {
+  text-align: center;
+  margin: 0;
+}
+
+.review__author {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review__author-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.review__author-info {
+  display: none;
+  margin: 0;
+}

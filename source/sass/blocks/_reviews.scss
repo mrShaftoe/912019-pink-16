@@ -1,0 +1,7 @@
+.reviews {
+  margin-bottom: 20px;
+}
+
+.reviews__list {
+  @include list-reset;
+}

@@ -94,120 +94,126 @@
 
 
       </section>
-<!--
-  <div class="about__research">
-          <p class="">Эффект на 24 часа!</p>
-          <p class="">
-              Британские ученые провели исследования
-              и доказали, что положительный эффект
-              от использования приложения длится
-              целые сутки!</p>
-          <a href="research.html" class="about__link">Узнать больше об исследовании</a>
-        </div>
+
+      <section class="research">
+        <h2 class="visually-hidden">Исследование эффективности</h2>
+        <p class="research__lead">Эффект на 24 часа!</p>
+        <p class="research__text">
+            Британские ученые провели исследования
+            и доказали, что положительный эффект
+            от использования приложения длится
+            целые сутки!</p>
+        <a href="research.html" class="about__link">Узнать больше об исследовании</a>
+      </section>
+
       <section class="reviews">
-        <header class="reviews__header">
-          <h2 class="visually-hidden">Отзывы пользователей</h2>
-        </header>
-        <ul class="reviews__list">
-          <li class="review reviews__item">
-            <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-            <div class="review__author">
-              <p class="review__author-name">Николай Петров</p>
-              <p class="review__author-info">25 лет, водитель трамвая</p>
-            </div>
-          </li>
-        </ul>
-        <ul class="reviews__pagination">
-          <li>
-            <button class="reviews__button reviews__button--active">
-              <span class="visually-hidden">1</span>
-            </button>
-          </li>
-          <li>
-            <button class="reviews__button">
-              <span class="visually-hidden">2</span>
-            </button>
-          </li>
-          <li>
-            <button class="reviews__button">
-              <span class="visually-hidden">3</span>
-            </button>
-          </li>
-        </ul>
+        <div class="container">
+          <header class="reviews__header">
+            <h2 class="visually-hidden">Отзывы пользователей</h2>
+          </header>
+          <ul class="reviews__list">
+            <li class="review reviews__item">
+              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+              <div class="review__author">
+                <p class="review__author-name">Николай Петров</p>
+                <p class="review__author-info">25 лет, водитель трамвая</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="reviews__pagination pagination">
+            <li>
+              <button class="pagination__button pagination__button--active">
+                <span class="visually-hidden">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="pagination__button">
+                <span class="visually-hidden">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="pagination__button">
+                <span class="visually-hidden">3</span>
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="tariffs">
-        <header class="tariffs__header">
-          <h2 class="visually-hidden">Тарифы</h2>
-        </header>
-        <input type="radio" class="visually-hidden" id="column-1" name="tariffs-pagination">
-        <input type="radio" class="visually-hidden" id="column-2" name="tariffs-pagination" checked>
-        <input type="radio" class="visually-hidden" id="column-3" name="tariffs-pagination">
+          <div class="container">
+          <header class="tariffs__header">
+            <h2 class="visually-hidden">Тарифы</h2>
+          </header>
+          <input type="radio" class="visually-hidden" id="column-1" name="tariffs-pagination">
+          <input type="radio" class="visually-hidden" id="column-2" name="tariffs-pagination" checked>
+          <input type="radio" class="visually-hidden" id="column-3" name="tariffs-pagination">
 
-        <table class="tariffs__table ">
-          <tr>
-            <th class="tariffs__heading tariffs__heading--empty"></th>
-            <th class="tariffs__heading">
-              <p class="tariffs__title">База</p>
-              <p class="tariffs_price">1,99 USD</p>
-            </th>
-            <th class="tariffs__heading tariffs_hit">
-              <p class="tariffs__title">Стандарт</p>
-              <p class="tariffs_price">3,99 USD</p>
-            </th>
-            <th class="tariffs__heading">
-              <p class="tariffs__title">Анлим</p>
-              <p class="tariffs_price">9,99 USD</p>
-            </th>
-          </tr>
+          <table class="tariffs__table tariffs__table--move-center">
+            <tr>
+              <th class="tariffs__heading tariffs__heading--empty"></th>
+              <th class="tariffs__heading">
+                <p class="tariffs__title">База</p>
+                <p class="tariffs__price">1,99 USD</p>
+              </th>
+              <th class="tariffs__heading tariffs_hit">
+                <p class="tariffs__title">Стандарт</p>
+                <p class="tariffs__price">3,99 USD</p>
+              </th>
+              <th class="tariffs__heading">
+                <p class="tariffs__title">Анлим</p>
+                <p class="tariffs__price">9,99 USD</p>
+              </th>
+            </tr>
 
-          <tr>
-            <td class="tariffs__cell tariffs__row-title">Розовый фильтр</td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Розовый фильтр</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Розовый фильтр</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Розовый фильтр</span>
-            </td>
-          </tr>
+            <tr>
+              <td class="tariffs__cell tariffs__row-title">Розовый фильтр</td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Розовый фильтр</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Розовый фильтр</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Розовый фильтр</span>
+              </td>
+            </tr>
 
-          <tr>
-            <td class="tariffs__cell tariffs__row-title">Смайлики</td>
-            <td class="tariffs__cell tariffs__cell--no">
-              <span class="tariffs__hidden-text">Смайлики</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Смайлики</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Смайлики</span>
-            </td>
-          </tr>
+            <tr>
+              <td class="tariffs__cell tariffs__row-title">Смайлики</td>
+              <td class="tariffs__cell tariffs__cell--no">
+                <span class="tariffs__hidden-text">Смайлики</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Смайлики</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Смайлики</span>
+              </td>
+            </tr>
 
-          <tr>
-            <td class="tariffs__cell tariffs__row-title">Комментарии</td>
-            <td class="tariffs__cell tariffs__cell--no">
-              <span class="tariffs__hidden-text">Комментарии</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--no">
-              <span class="tariffs__hidden-text">Комментарии</span>
-            </td>
-            <td class="tariffs__cell tariffs__cell--yes">
-              <span class="tariffs__hidden-text">Комментарии</span>
-            </td>
-          </tr>
-        </table>
+            <tr>
+              <td class="tariffs__cell tariffs__row-title">Комментарии</td>
+              <td class="tariffs__cell tariffs__cell--no">
+                <span class="tariffs__hidden-text">Комментарии</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--no">
+                <span class="tariffs__hidden-text">Комментарии</span>
+              </td>
+              <td class="tariffs__cell tariffs__cell--yes">
+                <span class="tariffs__hidden-text">Комментарии</span>
+              </td>
+            </tr>
+          </table>
 
-        <ul class="tariffs__pagiantion">
-          <li><label for="column-1" class="tariffs__button">1</label></li>
-          <li><label for="column-2" class="tariffs__button">2</label></li>
-          <li><label for="column-3" class="tariffs__button">3</label></li>
-        </ul>
+          <ul class="tariffs__pagiantion">
+            <li><label for="column-1" class="tariffs__button">1</label></li>
+            <li><label for="column-2" class="tariffs__button">2</label></li>
+            <li><label for="column-3" class="tariffs__button">3</label></li>
+          </ul>
+        </div>
       </section>
-
+<!--
       <section class="contacts">
         <header class="contacts__header">
           <h2 class="visually-hidden">Контакты</h2>

@@ -1,6 +1,9 @@
+.about {
+  margin-bottom: 40px;
+}
+
 .about__header {
   text-align: center;
-  padding-top: 40px;
 }
 
 .about__lead {
@@ -15,6 +18,6 @@
     url("../img/bg-triangle-white.svg"),
     url("../img/iphone-screen-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: top, bottom -20px center;
+  background-position: top, bottom -38px center;
   background-size: calc(100% + 10px) auto, auto;
 }
