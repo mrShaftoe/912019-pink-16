@@ -16,7 +16,7 @@
   cursor: pointer;
   outline: none;
 
-  &--active {
+  &:disabled {
     background-color: #ffffff;
     box-shadow: 0 0 0 3px $default-color;
     cursor: default;

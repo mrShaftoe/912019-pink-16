@@ -1,0 +1,22 @@
+.page-footer {
+  padding: 20px 0;
+
+  &--index {
+    display: none;
+  }
+}
+
+.page-footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-footer__logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-footer__logo-image {
+  vertical-align: bottom;
+}

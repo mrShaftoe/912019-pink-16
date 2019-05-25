@@ -122,7 +122,7 @@
           </ul>
           <ul class="reviews__pagination pagination">
             <li>
-              <button class="pagination__button pagination__button--active">
+              <button class="pagination__button" disabled>
                 <span class="visually-hidden">1</span>
               </button>
             </li>
@@ -141,15 +141,12 @@
       </section>
 
       <section class="tariffs">
-          <div class="container">
+          <div class="container tariffs__container">
           <header class="tariffs__header">
             <h2 class="visually-hidden">Тарифы</h2>
           </header>
-          <input type="radio" class="visually-hidden" id="column-1" name="tariffs-pagination">
-          <input type="radio" class="visually-hidden" id="column-2" name="tariffs-pagination" checked>
-          <input type="radio" class="visually-hidden" id="column-3" name="tariffs-pagination">
 
-          <table class="tariffs__table tariffs__table--move-center">
+          <table class="tariffs__table">
             <tr>
               <th class="tariffs__heading tariffs__heading--empty"></th>
               <th class="tariffs__heading">
@@ -206,65 +203,93 @@
             </tr>
           </table>
 
-          <ul class="tariffs__pagiantion">
-            <li><label for="column-1" class="tariffs__button">1</label></li>
-            <li><label for="column-2" class="tariffs__button">2</label></li>
-            <li><label for="column-3" class="tariffs__button">3</label></li>
+          <ul class="tariffs__pagination pagination">
+            <li>
+              <button class="pagination__button">
+                <span class="visually-hidden">1</span>
+              </button>
+            </li>
+            <li>
+              <button class="pagination__button" disabled>
+                <span class="visually-hidden">2</span>
+              </button>
+            </li>
+            <li>
+              <button class="pagination__button">
+                <span class="visually-hidden">3</span>
+              </button>
+            </li>
           </ul>
         </div>
+
       </section>
-<!--
+
       <section class="contacts">
-        <header class="contacts__header">
-          <h2 class="visually-hidden">Контакты</h2>
-          <p class="contacts__lead section-lead">Остались вопросы?</p>
-          <p class="contacts__lead section-lead">Свяжитесь с нами!</p>
-        </header>
+        <div class="contacts__container container">
+          <header class="contacts__header">
+            <h2 class="visually-hidden">Контакты</h2>
+            <p class="contacts__lead section-lead">Остались вопросы?</p>
+            <p class="contacts__lead section-lead">Свяжитесь с нами!</p>
+          </header>
 
-        <ul class="contacts__list">
-          <li class="contacts__item contact">
-            <p class="contact__title">Звоните:</p>
-            <p class="contact__content">+7 (812) 555-66-66</p>
-          </li>
-          <li class="contacts__item contact">
-            <p class="contact__title">Пишите:</p>
-            <p class="contact__content">
-              <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-            </p>
-          </li>
-          <li class="contacts__item contact">
-            <p class="contact__title">Приезжайте в гости:</p>
-            <p class="contact__content">ул. Большая Конюшенная, 19/8</p>
-          </li>
-        </ul>
-
+          <ul class="contacts__list">
+            <li class="contacts__item contact">
+              <p class="contact__title">Звоните:</p>
+              <p class="contact__content">+7 (812) 555-66-66</p>
+            </li>
+            <li class="contacts__item contact">
+              <p class="contact__title">Пишите:</p>
+              <p class="contact__content">
+                <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+              </p>
+            </li>
+            <li class="contacts__item contact">
+              <p class="contact__title">Приезжайте в гости:</p>
+              <p class="contact__content">ул. Большая Конюшенная, 19/8</p>
+            </li>
+          </ul>
+        </div>
         <div class="contacts__map"></div>
-      </section>-->
-    </main>
-<!--
-    <footer class="page-footer">
-      <div class="page-footer__logo">
-        <a>
-          <img src="http://placehold.it/147x40" alt="" class="page-footer__logo-image" width="147" height="40">
-        </a>
-      </div>
-
-      <section class="page-footer__social social">
-        <h2 class="visually-hidden">Pink в социальных сетях</h2>
-        <ul class="social__list">
-          <li class="social__item"><a href="https://twitter.com" class="social__link social__link--tw">Twitter</a></li>
-          <li class="social__item"><a href="https://facebook.com" class="social__link social__link--fb">Facebook</a></li>
-          <li class="social__item"><a href="https://youtube.com" class="social__link social__link--youtube">Youtube</a></li>
-        </ul>
       </section>
+    </main>
 
-      <section class="page-footer__developer developer">
-        <h2 class="visually-hidden">Разработчик сайта</h2>
+    <footer class="page-footer page-footer--index">
+      <div class="page-footer__container container">
+        <div class="page-footer__logo">
+          <a>
+            <img src="http://placehold.it/147x40" alt="" class="page-footer__logo-image" width="147" height="40">
+          </a>
+        </div>
+
+        <section class="page-footer__social social">
+          <h2 class="visually-hidden">Pink в социальных сетях</h2>
+          <ul class="social__list">
+            <li class="social__item">
+              <a href="https://twitter.com" class="social__link social__link--tw">
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://facebook.com" class="social__link social__link--fb">
+                <span class="visually-hidden">Facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://youtube.com" class="social__link social__link--youtube">
+                <span class="visually-hidden">Youtube</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-footer__developer developer">
+          <h2 class="visually-hidden">Разработчик сайта</h2>
           <p class="developer__text">Разработано</p>
           <a href="https://up.htmlacademy.ru/adaptive/16"><img src="http://placehold.it/27x34" alt="" class="developer__logo" width="27" height="34"></a>
-      </section>
+        </section>
+      </div>
     </footer>
- -->
+
     <script src="js/scripts.js"></script>
   </body>
 </html>

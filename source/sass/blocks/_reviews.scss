@@ -4,4 +4,6 @@
 
 .reviews__list {
   @include list-reset;
+
+  margin-bottom: 40px;
 }
