@@ -43,9 +43,28 @@
   border-bottom-color: $default-color;
   color: #ffffff;
   background-color: $default-color;
+  position: relative;
+  overflow: hidden;
 
   &--empty {
     display: none;
+  }
+
+  &--hit::before {
+    content: "Хит";
+    position: absolute;
+    top: 6px;
+    left: -31px;
+    width: 116px;
+    transform: rotate(-45deg);
+
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $marker-color;
+    padding: 10px 0;
   }
 }
 

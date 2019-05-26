@@ -19,20 +19,23 @@
 .contacts__map {
   width: 100%;
   height: 200px;
-  background-color: pink;
+  background-image: url("../../img/bg-map-mobile@1x.png");
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../../img/bg-map-mobile@1x.png");
+    background-size: 320px;
+  }
+  background-position: bottom center;
+  background-repeat: no-repeat;
   position: relative;
 
   &::before {
-    content: "";
-    width: 100%;
+    content: url("../img/bg-triangle-white-footer.svg");
     height: 40px;
 
     position: absolute;
     top: 0;
     left: 0;
-
-    background-image: url("../../img/bg-triangle-white-footer.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    right: 0;
   }
 }
